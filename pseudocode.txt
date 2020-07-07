@@ -1,0 +1,22 @@
+
+prompt for numeric variables
+create array of numeric variables from 1 - 9
+get random numeric variable 
+
+prompt for special character
+create array of special characters 
+get random special character from array
+
+prompt for lowercase letters
+create array of lowercase letters
+get random lowercase letters from array
+
+prompt for uppercase letters
+create array of uppercase letters
+get random uppercase letters
+
+prompt for password character length
+create function (?) that combines random variables to specified length
+create loop that gathers random variables
+
+create alert that produces random variables at specified length on page
