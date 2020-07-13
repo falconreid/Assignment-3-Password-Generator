@@ -17,8 +17,10 @@ Then I tied the randomization function into the output function
 I changed the css a little to create a more appealling look. Though I admit I'm still stumped why the css doesn't apply until after the data has been collected.
 
 screenshot:
-![](assets/screenshot_PwGen.jpg)
+![](Assets/screenshot_PwGen.jpg)
+
 ACtive URL:
 https://falconreid.github.io/Assignment-3-Password-Generator/
-Reopsitory:
+
+Repository:
 https://github.com/falconreid/Assignment-3-Password-Generator
