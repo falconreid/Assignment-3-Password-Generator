@@ -1,30 +1,3 @@
-/*PSEUDOCODE PREP:
-prompt for numeric variables
-prompt for special character
-prompt for lowercase letters
-prompt for uppercase letters
-prompt for password character length
-
-create array of numeric variables from 1 - 9
-get random numeric variable 
-
-create array of special characters 
-get random special character from array
-
-prompt for lowercase letters
-create array of lowercase letters
-get random lowercase letters from array
-
-
-create array of uppercase letters
-get random uppercase letters
-
-create loop that gathers random variables generated
-create function that combines random variables to specified length (?)
-
-
-return random variables at specified length on page */
-
 // create arrays
 var num = "123456789";
 var lowerCase = "abcdefghijklmnopqrstuvwxyz";
@@ -48,12 +21,15 @@ var length = prompt(
   "Your password should be between 8 and 128 characters. How long would you like the password to be?"
 );
 console.log(length);
-// add if then statement to make sure the length is between 8 and 128 - include alerts if answer is not in the range.
+
+// add while statement to make sure the length is between 8 and 128
 
 while (length < 8 || length > 128) {
   alert("You chose " + length + ". You must chose a length between 8 and 128");
   var length = prompt("How long would you like the password to be?");
 }
+
+// add while statement to make sure that at least 1 set of variables is chosen.
 
 while (
   numConfirm === false ||
@@ -81,6 +57,8 @@ alert(
   "We've collected all your answers. Click the Blue Button to generate the password! You can press it as many times as you want to generate new passwords."
 );
 console.log(numConfirm);
+
+// create if statement that passes selected strings into randomization function
 
 var passwordConstraints = "";
 
@@ -113,6 +91,7 @@ function randomString(length, chars) {
   return result;
 }
 
+// Test if randomString is working
 console.log(randomString(length, passwordConstraints));
 
 // Assignment Code
