@@ -1,4 +1,4 @@
-# Assignment-3-Password-Generator
+Password Generator
 
 Assignment was to create a script that generates random password with letters, numbers and special characters.
 
